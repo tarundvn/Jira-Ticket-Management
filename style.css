@@ -9,7 +9,7 @@ body{
 
 .toolbox-cont{
     height: 5rem;
-    background-color: #4b4b4b;
+    background-color: #2f3542;
     display: flex;
     align-items: center;
 }
@@ -20,8 +20,8 @@ body{
 }
 .toolbox-priority-cont{
     height: 3.5rem;
-    width: 16rem;
-    background-color: #3d3d3d;
+    width: 20rem;
+    background-color: #a4b0be;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,7 +29,7 @@ body{
 .action-btn-cont{
     height: 3.5rem;
     width: 8rem;
-    background-color: #3d3d3d;
+    background-color: #a4b0be;
     display: flex;
 }
 .action-btn-cont > *{
@@ -38,25 +38,27 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    color: #d1d8e0;
 }
 .color{
-    height: 1.2rem;
-    width: 2.5rem;
+    height: 2rem;
+    width: 4rem;
     background-color: lightsalmon;
     border-radius: 2px;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
 }
 .lightpink
 {
-    background-color: lightpink;
+    background-color: #b71540;
 }
 .lightgreen
 {
-    background-color: lightgreen;
+    background-color: #009432;
 }
 .lightblue
 {
-    background-color: lightblue;
+    background-color: #1e3799;
 }
 .black
 {
@@ -70,7 +72,7 @@ body{
 .modal-cont{
     height: 50vh;
     width: 45vw;
-    background-color: lightblue;
+    background-color: #1e3799;
     position: absolute;
     top: calc((100vh - 50vh)/2);
     left: calc((100vw - 45vw)/2);
@@ -143,9 +145,14 @@ body{
 }
 .main-cont
 {
+    height: calc(100vh - 5rem);
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     padding: 2rem;
     gap: 2rem;
     justify-content: center;
+    background: url(./bg.webp);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
 }
